@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto2</title>
+    <link rel="stylesheet" href="projeto2.css">
+    
+</head>
+
+<body>
+        <main class="mainContainer">
+            <header class="cabeçalho">
+                <h1>Mensagens Codificadas:</h1>
+            </header>
+            <div class="container-input">
+                <div class="input">
+                    <textarea id="inputTxt" placeholder="Digite o seu texto..."></textarea>
+                </div>
+                    <div class="botonsdeselecao">
+                    <input type="radio" name="nome_do_grupo" value="valor" id="opcifra"/> Cifra de Cesar
+                    <input type="radio" name="nome_do_grupo" value="valor"
+                    id="base"/> Base64
+                    </div>
+                <div id="output">
+                    <h2>Sua mensagem aparecerá aqui!</h2>
+                    <textarea id="result" ></textarea>
+                    <br>
+                    <span> Digite seu texto que deseja criptografar ou descriptografar. </span>
+                </div>
+                
+                <div class="buttons">
+                    <div class="container-bnt">
+                    <br>
+                        <button onclick="verificar()">Criptografar</button>
+                        <button onclick="vDecode()" class="btn-descriptografar">descriptografar</button>
+                    </div>
+                </div>
+        
+            </main>
+        <footer class="Rodape">
+            <div class="icons">
+                <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href=""><ion-icon name="logo-github"></ion-icon></a>
+                <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+    </footer>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" > </script > 
+    <script  nomodule  src = "https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js" > </script >
+</body>
+<script src="projeto2.js"></script>
+</html>

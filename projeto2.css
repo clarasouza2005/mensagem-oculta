@@ -1,0 +1,27 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(1600w-iel7Rj8nbDg.webp);
+
+    
+}
+
+main {
+    background-color: white;
+    margin-left: 420px;
+    margin-right: 420px;
+    margin-bottom: 40px;
+    background-color:rgba(243, 243, 247, 0.7);
+    text-align: center;
+    margin-top: 180px; 
+    padding:30px;
+    border-radius: 40px;
+}
+.botonsdeselecao {
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    font-size: 30PX;
+}
+
